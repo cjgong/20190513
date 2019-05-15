@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<body>
+<h3 align="center">注册页面</h3>
+<hr width="40%"/>
+<form action="./html02.html">
+  <table width="40%" align="center" >
+    <tr>
+      <!-- 用户名 -->
+      <td align="right" width="30%">用户名：</td>
+      <td><input type="text"/></td>
+    </tr>
+    <tr>
+      <!-- 密码 -->
+      <td align="right">密&nbsp;&nbsp;&nbsp;码：</td>
+      <td><input type="password"/></td>
+    </tr>
+    <tr>
+      <!-- 性别 -->
+      <td align="right">性&nbsp;&nbsp;&nbsp;别：</td>
+      <td>
+	  	<input type="radio" name="sex01" checked="checked"/>
+        男
+        <input type="radio" name="sex01" />
+        女
+	  </td>
+    </tr>
+	<tr>
+      <!-- 兴趣 -->
+      <td align="right">兴&nbsp;&nbsp;&nbsp;趣：</td>
+      <td>
+        <input  type="checkbox" name="color01" checked="checked"/> 学习
+        <input  type="checkbox" name="color01"/> 游戏
+		<input  type="checkbox" name="color01"/> 看书
+		<input  type="checkbox" name="color01"/> 电影
+	  </td>
+    </tr>
+	<tr>
+      <!-- 家庭地址 -->
+      <td align="right">地&nbsp;&nbsp;&nbsp;址：</td>
+      <td>
+		<select>          <!--创建多选的下拉列表-->
+			<option>=====请选择===</option>   <!-- 下拉列表里的选项标签 -->
+			<option>陕西</option>
+			<option>山西</option>
+			<option>河南</option>
+		</select>省
+		<select>          <!--创建多选的下拉列表-->
+			<option>=====请选择===</option>   <!-- 下拉列表里的选项标签 -->
+			<option>西安</option>
+			<option>宝鸡</option>
+			<option>咸阳</option>
+		</select>市
+		<select>          <!--创建多选的下拉列表-->
+			<option>=====请选择===</option>   <!-- 下拉列表里的选项标签 -->
+			<option>碑林</option>
+			<option>雁塔</option>
+			<option>长安</option>
+		</select>区
+	  </td> 
+    </tr>	
+	<tr>
+      <!-- 学习的语言 -->
+      <td align="right">语&nbsp;&nbsp;&nbsp;言：</td>
+      <td>
+		<select multiple="multiple">          <!--创建多选的下拉列表-->
+			<option>C</option>
+			<option>C++</option>
+			<option>Java</option>
+			<option>python</option>
+		</select>
+	  </td> 
+    </tr>		
+	<tr>
+      <!-- 自我介绍 -->
+      <td align="right">自我介绍：</td>
+      <td>
+		<textarea cols="40" rows="25">  
+		</textarea>
+	  </td> 
+    </tr>	
+	<tr>
+      <!-- 按钮 -->
+      <td align="center" colspan="2">
+		<input type="submit" value="提交"/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="清空"/>
+	  
+	  </td>
+    </tr>	
+	
+  </table>
+</form>
+<hr width="40%"/>
+<center>
+&copy;西安中软国际
+<br />
+&reg;陕西备注
+</center>
+
+
+</body>
+</html>
