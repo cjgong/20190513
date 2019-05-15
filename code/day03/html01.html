@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+
+<!-- 表单标签 -->
+<!--  action属性的作用是设置提交谁-->
+<form action="./html02.html">
+文本框标签：<input type="text"/><br />
+密码框标签：<input type="password"/>  <br/>
+
+<!-- 
+
+单选按钮：如果要具有单选效果，必须要在同一个组
+同一个组的单选按钮，具有name属性值一样。
+
+
+-->
+
+单选按钮标签：<input type="radio" name="sex01"/> 公
+              <input type="radio" name="sex01" /> 母
+<br />
+
+<!--
+复选框
+-->
+多选按钮标签：<input  type="checkbox" name="color01"/> 白色
+              <input  type="checkbox" name="color01"/> 黑色
+			  <input  type="checkbox" name="color01"/> 红色
+<br/>
+			 
+<!--
+  下拉列表标签
+-->
+
+下拉列表标签（单选）：<select>                  <!--下拉列表标签-->
+				<option>===========请选择===========</option>   <!-- 下拉列表里的选项标签 -->
+				<option>白颜色</option>
+				<option>红颜色</option>
+				<option>绿颜色</option>
+			  </select>
+<br />
+
+下拉列表标签（多选）:
+<br />
+<select multiple="multiple">          <!--创建多选的下拉列表-->
+	<option>===========请选择===========</option>   <!-- 下拉列表里的选项标签 -->
+	<option>白颜色</option>
+	<option>红颜色</option>
+	<option>绿颜色</option>
+</select>
+
+<br />
+
+文本域：
+<br/>
+<!-- 文本域 -->
+<!--设置文本域的宽度(列数)  高度（行数）-->
+<textarea cols="40" rows="25">  
+</textarea>
+<br />
+<!-- 表单里的按钮-->
+<!-- 提交按钮-->
+<input type="submit" value="提交"/>
+<input type="reset" value="清空"/>
+ 
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
