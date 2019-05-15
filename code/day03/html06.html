@@ -1,10 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>�ޱ����ĵ�</title>
-</head>
 
-<body>
-</body>
+<head>
+</head>
+<!--  
+1、frameset frame 不能放到body
+2、当前网页中，最好不要出现body标签，如果要出现，最好放到框架集的后面
+
+
+-->
+<frameset rows="10%,*">
+	<frame  src="top.html" name="top"/>        <!--  第一行 -->
+	 <frameset cols="10%,*">           <!--  第二行 -->
+	    <frame src="left.html" name="left" />    <!--  左边 -->
+		<frame src="right.html" name="right" />    <!--  左边 -->
+	 </frameset>
+</frameset>
+
+
 </html>
